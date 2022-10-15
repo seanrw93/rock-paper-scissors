@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Rock, Paper, Scissors</title>
+        <link rel="stylesheet" href="./styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+        <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKOkpDlLTk6zLTAw/y4tLf81MzL/NTY2/zEzM/sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAycrJEjk+P/8/REP/VV1g/1dfXf9QVVX/PDw7/yorKv8lJCT/NDY2/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADs9Pf85PT7/PkVD/2Z8eP9ye37/fJWS/2BlZv9VWVf/SUtL/0JCQf8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgIiH/Jyoq/ysxMP8+RUX/XGtp/2x5ff9fY2P/UlZV/0pLS/9FRkb/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKCkp/zE9Ov85QED/dYeI/3mFh/9wenr/YmZn/1NWV/9BQ0L/PD8+/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABMUFP8eJyb/Jy0u/3yJi/+era//hI+R/2Jpav9DRkX/JiYl/ykpKf8AAAAAAAAAAAAAAAAAAAAAAAAAANrb2gQrLi3/MTc3/zNBPP9CSEn/ZnJy/3mBg/91eHn/YmRj/1tgXv9WWVn/AAAAAAAAAAAAAAAAAAAAAAAAAADl5eUCoLGy/6q9wP+arKz/iJOT/5Sen/+BhYb/eHp5/3h9fP9lamn/W11d/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACNlZj/d4KE/4qSlP+IjIv/iYyL/3p+ff+AjI3/Zmts/11gX/8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiZqf/4SNjv+VnZ//h4qK/46Uk/97gID/g4uL/3WBf/+YmJeFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMPHxjKAjI//jJSV/4KEhP+frbH/hZKW/3KCgP9jamn/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHyAf/yQmJf8hISH/dYuL/3eAgv9ug4L/XWZl/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIyYn/yktLv8vMzT/LjAw/1VlZP9odXL/Ymdn/1VWVv8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKOzrmebwML/lKus/7LExP99h4b/bHd2/19hYP9XV1b/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnbi7/525u/+twMT/jJ+f/3WBgv9eYmH/XGBg+wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACTsar/mq+w/6S4vf94h4X/ZGdm/wAAAAAAAAAAAAAAAAAAAAAAAAAA/A8AAPAHAADgBwAA4AcAAOAHAADgBwAA4AcAAOAHAADwBwAA8AcAAPgPAAD4DwAA8A8AAPgPAAD4DwAA/B8AAA==" rel="icon" type="image/x-icon" />
+        <script defer src="./script.js"></script>
+    </head>
+    <body>
+        <h1>Welcome to Rock, Paper, Scissors!</h1>
+        <div class="game-container container">
+            <div class="player-box box">
+                <p id="player-move" class="player-move move">🖖</p>
+            </div>
+            <div class="central-box">
+                <div>
+                    <h2>Score</h2>
+                </div>
+                <div class="score-value">
+                    <p id="player-score">0</p>
+                    <p id="computer-score">0</p>
+                </div>
+                <div class="winner-message">
+                    <p id="winner-message">Choose a move below!</p>
+                </div>
+                <div class="buttons">
+                    <button id="rock" class="game-btns">🗿</button>
+                    <button id="paper" class="game-btns">📜</button>
+                    <button id="scissors" class="game-btns">✂️</button>
+                </div>
+        </div>
+            <div class="computer-box box">
+                <p id="computer-move" class="computer-move move">🤘</p>
+            </div>
+        </div>
+    </body>
+</html>

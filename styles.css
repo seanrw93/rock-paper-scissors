@@ -1,0 +1,126 @@
+:root {
+    --border-colour: #221e42;
+    --background-colour: #020536;
+} 
+
+html {
+    min-width: 846px;
+}
+
+body {
+    box-sizing: border-box;
+    border: 5px solid var(--border-colour);
+    background-color: var(--background-colour);
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'Common Pixel', sans-serif;
+    color: silver;                                            
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.7rem;
+    letter-spacing: 4px;
+    transform: scale(1, 1.5);
+        -webkit-transform: scale(1, 1.5);
+}
+
+h3 {
+    letter-spacing: 4px;
+    transform: scale(1, 1.5);
+        -webkit-transform: scale(1, 1.5);
+}
+
+.container {
+    border: 5px solid var(--border-colour);
+    border-radius: 10px;
+    margin: 50px;  
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    box-sizing: border-box;
+    min-height: 450px;
+    padding: 30px;
+}
+
+.box {
+    border: 5px solid var(--border-colour);
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    margin: 10px 
+}
+
+.central-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 230px;
+    
+}
+
+.game-btns {
+    
+    height: 55px;
+    width: 57px;
+    font-size: 2.0em;
+    padding-bottom: 10px;
+    /* margin-bottom: 120px; */
+    background-color: var(--background-colour);
+    border: 3px solid var(--border-colour);
+    border-radius: 5px
+}
+
+.game-btns:hover {
+    background-color: var(--border-colour);
+    cursor: pointer;
+}
+
+
+
+h2 {
+    font-size: 2.9em;
+    text-align: center;
+    margin: 0
+}
+
+.score-value {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 5rem;
+    width: 260px;
+
+}
+
+.winner-message {
+    height: 100px;
+    width: 300px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -70px;
+    margin-bottom: 80px 
+}
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.move {
+    font-size: 150px
+} 
